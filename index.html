@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Carrinho de Compras</h1>
+    <ul id="lista-produtos"></ul>
+    <div class="produtos-container">
+        <div class="produto">
+            <img id="produto1" src="img/camiseta.jpg" alt="Camiseta">
+            <p>ID: 1</p>
+            <p>Nome: Camiseta</p>
+            <p>Valor: R$29.99</p>
+            <p>Quantidade: 1</p>
+            <button onclick="adicionarProduto(1, 'Camiseta', 29.99, 1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img id="produto2" src="img/calca.jpg" alt="Calça Jeans">
+            <p>ID: 2</p>
+            <p>Nome: Calça Jeans</p>
+            <p>Valor: R$259.00</p>
+            <p>Quantidade: 1</p>
+            <button onclick="adicionarProduto(2, 'Calça Jeans', 259.00, 1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img id="produto3" src="img/tenis.jpg" alt="Tênis">
+            <p>ID: 3</p>
+            <p>Nome: Tênis</p>
+            <p>Valor: R$149.90</p>
+            <p>Quantidade: 1</p>
+            <button onclick="adicionarProduto(3, 'Tênis', 149.90, 1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img id="produto4" src="img/blusa.jpg" alt="Blusa de Moletom">
+            <p>ID: 4</p>
+            <p>Nome: Blusa</p>
+            <p>Valor: R$149.99</p>
+            <p>Quantidade: 1</p>
+            <button onclick="adicionarProduto(4, 'Blusa', 149.99, 1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img id="produto5" src="img/shorts.png" alt="Bermuda">
+            <p>ID: 5</p>
+            <p>Nome: Bermuda</p>
+            <p>Valor: R$289.80</p>
+            <p>Quantidade: 1</p>
+            <button onclick="adicionarProduto(5, 'Bermuda', 289.80, 1)">Adicionar ao Carrinho</button>
+        </div>
+       <div class="produto">
+        <img id="produto6" src="img/regata.jpg" alt="Regata">
+        <p>ID: 6</p>
+        <p>Nome: Regata</p>
+        <p>Valor: R$60.50 </p>
+        <p>Quantidade: 1</p>
+        <button onclick="adicionarProduto(6, 'Regata', 60.50, 1)">Adicionar ao Carrinho</button>
+       </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
