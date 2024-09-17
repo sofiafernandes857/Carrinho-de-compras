@@ -53,7 +53,7 @@ Visualizar o projeto no navegador usando Live Server
 
 ## Aprendizados
 
-Este projeto foi realizado para fixar o conteúdo de armazenamento em listas, adicionar, remover e visualizar objetos na lista. 
+Este projeto foi realizado para fixar o conteúdo de armazenamento em listas, adicionar, remover, identificar bugs e visualizar objetos na lista. 
 
 
 ## Autora
