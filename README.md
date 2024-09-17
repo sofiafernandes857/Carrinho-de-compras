@@ -3,6 +3,8 @@
 
 Esse é um projeto desenvolvido para o checkpoint 4 da disciplina de Web Development. Foi desenvolvido uma página para um carrinho de compras utilizando Java Script, HTML e CSS. 
 O objetivo era contruir uma página funcional que o usuário pudesse adicionar ou remover produtos do carrinho. 
+### Git Pages
+https://sofiafernandes857.github.io/Carrinho-de-compras/
 
 ## Stack utilizada
 
